@@ -8,5 +8,9 @@ const db = mysql.createConnection(
         user: 'root',
         password: password,
         database: 'employee_tracker' s
-    }
-)
+    },
+  
+            console.log('Connected to the employee_trackrt databse.')
+);
+
+module.exports = db;
