@@ -1,2 +1,12 @@
 const mysql = require('mysql12');
 const password = require('../passwords');
+
+// connect to database
+const db = mysql.createConnection(
+    {
+        host: 'localhost',
+        user: 'root',
+        password: password,
+        database: 'employee_tracker' s
+    }
+)
