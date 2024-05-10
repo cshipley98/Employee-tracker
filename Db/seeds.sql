@@ -33,3 +33,8 @@ VALUES
     ('Brittany', 'Feltnerr', 6, null),
     ('Rachel', 'Franks', 3, 5),
     ('Natalie', 'Gurel', 4, null);
+
+    
+SELECT * FROM departments;
+SELECT * FROM roles;
+SELECT * FROM employees;
