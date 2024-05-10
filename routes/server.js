@@ -35,3 +35,23 @@ function promptUser() {
         ]
     })
 }
+            then(function(answer){
+                switch(answer.choice){
+                    case "view all employees":
+                        viewEmployees();
+                        break;
+                    
+
+                        case 'View All Employees by Department':
+                            viewEmployeesByDepartment();
+                            break;
+            
+                        case 'View All Departments':
+                            viewDepartments();
+                            break;
+            
+                        case 'View All Roles':
+                            viewRoles();
+                            break; 
+                }
+            })
